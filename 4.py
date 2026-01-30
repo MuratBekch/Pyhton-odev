@@ -15,12 +15,12 @@
 
 """Notlandırma Sistemi"""
 yazili1=int(input("İlk yazılı sınavından aldığınız notu giriniz: "))
-yazili2=int(input("İkinci yazılı sınavından aldığınız notu giriniz: "))
+yazili2=int(input("İkinci yazılı sınavından aldığınız notu giriniz: "))#notlar sisteme girilir
 sozlu=int(input("Sözlü sınavından aldığınız notu giriniz: "))
 
-ortalama= (yazili1 + yazili2 + sozlu)/3
+ortalama= (yazili1 + yazili2 + sozlu)/3#ortalama bulunur
 
-if ortalama>=85:
+if ortalama>=85:#ortalama değerlendirilir
     print("Notunuz:5")
 elif ortalama>=70 and ortalama<85:
     print("Notunuz:4")
@@ -35,7 +35,7 @@ else:
 
 
 """araç muayene kontrolü"""
-Anahtar_reslim=int(input("Aracınız kaç gündür sizinle?"))
+Anahtar_reslim=int(input("Aracınız kaç gündür sizinle?"))#aracın kullanıcısıyla geçirdiği gün alınır. 365 ile bölünüp kaç yıl olduğu bulunur
 if (Anahtar_reslim//365)==1:
     print("1. muayene gerekiyor.")
 elif (Anahtar_reslim//365)==2:
